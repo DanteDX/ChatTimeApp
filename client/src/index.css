@@ -1,0 +1,121 @@
+body{
+    background-color: #1a1a2e;
+    margin:0px;
+    padding:0px;
+    color:white;
+    width:100%;
+}
+
+.headerContent{
+    color:white;
+    text-align: center;
+    margin:0px;
+    padding:1px;
+    background-color: #1e5f74;
+}
+
+.headerContent h2 a{
+    text-decoration: none;
+    color:white;
+}
+
+.userNameFormContent{
+    margin:20px auto;
+    background-color:#1f4068 ;
+    padding:20px;
+    width:60%;
+    border-radius: 10px;
+}
+
+
+.userNameFormContent form{
+    margin:10px;
+}
+
+.userNameFormLabel{
+    color:white;
+    font-weight: bold;
+    margin:10px;
+    font-size: 20px;
+}
+
+.userNameForm{
+    width:70%;
+    padding:10px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin:7px;
+}
+
+.userNameFormSubmit{
+    background-color: #3282b8;
+    margin:10px;
+    margin-left: 4px;
+    color:white;
+    font-weight: bold;
+    padding:10px;
+}
+
+.chatRoomSelectionContent{
+    margin:20px auto;
+    background-color:#1f4068 ;
+    padding:20px;
+    width:60%;
+    border-radius: 10px;
+}
+
+.chatRoomSelectionContent form{
+    margin:10px;
+}
+
+.chatRoomSelectionFormLabel{
+    font-weight: bold;
+    margin:10px;
+    font-size: 20px;
+}
+
+.chatRoomSelectionFormSubmit{
+    background-color: #3282b8;
+    margin:10px;
+    margin-left: 4px;
+    color:white;
+    font-weight: bold;
+    padding:10px;
+}
+
+.chatRoomSelectionForm{
+    width:70%;
+    padding:7px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin:7px;
+}
+
+.messageListContents{
+    margin:10px auto;
+    background-color: #1f4068;
+    padding:10px;
+}
+
+.eachMessage{
+    background-color: #202040;
+    margin:10px;
+    padding:10px;
+    display:grid;
+    grid-template-columns: 1fr;
+}
+
+.eachMessage .eachMessageUserName{
+    font-weight: bold;
+    display: inline-block;
+    color:red;
+    font-size: 23px;
+    margin:0px;
+    
+}
+
+.eachMessage .eachMessageTextContent{
+    margin:0px;
+    word-break: break-all;
+    /* word-wrap: break-word; */
+}
